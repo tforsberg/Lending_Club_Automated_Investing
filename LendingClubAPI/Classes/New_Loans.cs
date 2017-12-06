@@ -18,7 +18,7 @@ namespace LendingClubAPI
         public double installment { get; set; }
         public string grade { get; set; }
         public string subGrade { get; set; }
-        public int empLength { get; set; }
+        public int? empLength { get; set; }
         public string homeOwnership { get; set; }
         public double annualInc { get; set; }
         public string isIncV { get; set; }
@@ -58,7 +58,7 @@ namespace LendingClubAPI
         public int pubRec { get; set; }
         public int totalBalExMort { get; set; }
         public double revolBal { get; set; }
-        public double revolUtil { get; set; }
+        public double? revolUtil { get; set; }
         public int totalBcLimit { get; set; }
         public int totalAcc { get; set; }
         public int totalIlHighCreditLimit { get; set; }
